@@ -1,5 +1,5 @@
-const { embed } = require('ai');
-const { openai } = require('@ai-sdk/openai');
+import { embed } from 'ai';
+import { openai } from '@ai-sdk/openai';
 
 require('dotenv').config();
 
@@ -18,4 +18,4 @@ async function generateEmbeedings(text) {
   }
 }
 
-module.exports = { generateEmbeedings };
+export { generateEmbeedings };

@@ -2,6 +2,7 @@
   "name": "fraud-detection",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +22,7 @@
     "@ai-sdk/openai": "^1.1.14",
     "@upstash/vector": "^1.2.0",
     "ai": "^4.1.46",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.10.1"
   }
 }

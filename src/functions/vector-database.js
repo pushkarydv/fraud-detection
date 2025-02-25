@@ -1,4 +1,4 @@
-const { Index } = require('@upstash/vector');
+import { Index } from '@upstash/vector';
 
 require('dotenv').config();
 
@@ -37,4 +37,4 @@ const getQueryResults = async (vectors_array) => {
   }
 };
 
-module.exports = { addData, getQueryResults };
+export { addData, getQueryResults };

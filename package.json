@@ -23,6 +23,7 @@
     "@upstash/vector": "^1.2.0",
     "ai": "^4.1.46",
     "dotenv": "^16.4.7",
+    "google-play-scraper": "^10.0.1",
     "mongoose": "^8.10.1"
   }
 }

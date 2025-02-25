@@ -8,7 +8,7 @@ import { getQueryResults } from './src/functions/vector-database.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-console.log('Running : fraud-detection/vectorize.js');
+console.log('Running : fraud-detection/generate-test-results.js');
 
 const main = async () => {
   const testDataPath = join(__dirname, '/src/data/test-data.json');

@@ -15,10 +15,6 @@ try {
   const trainData = JSON.parse(readFileSync(trainDataPath, 'utf8'));
   console.log(`[INFO] ${trainData.length} training examples`);
 
-  const testDataPath = join(__dirname, '/src/data/test-data.json');
-  const testData = JSON.parse(readFileSync(testDataPath, 'utf8'));
-  console.log(`[INFO] ${testData.length} test examples`);
-
   const batchSize = 50;
   const processBatch = async (batch) => {
     await Promise.all(

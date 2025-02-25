@@ -16,5 +16,11 @@
     "url": "https://github.com/pushkarydv/fraud-detection/issues"
   },
   "homepage": "https://github.com/pushkarydv/fraud-detection#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.14",
+    "@upstash/vector": "^1.2.0",
+    "ai": "^4.1.46",
+    "dotenv": "^16.4.7"
+  }
 }

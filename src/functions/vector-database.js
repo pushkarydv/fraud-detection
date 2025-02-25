@@ -1,8 +1,9 @@
 import { Index } from '@upstash/vector';
+import dotenv from "dotenv";
 
-require('dotenv').config();
+dotenv.config();
 
-const addData = async (id, vectors_array) => {
+const addVectors = async (id, vectors_array) => {
   try {
     const index = new Index({
       url: process.env.UPSTASH_URL,
@@ -37,4 +38,4 @@ const getQueryResults = async (vectors_array) => {
   }
 };
 
-export { addData, getQueryResults };
+export { addVectors, getQueryResults };

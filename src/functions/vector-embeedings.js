@@ -1,7 +1,8 @@
 import { embed } from 'ai';
 import { openai } from '@ai-sdk/openai';
+import dotenv from "dotenv";
 
-require('dotenv').config();
+dotenv.config();
 
 async function generateEmbeedings(text) {
   try {

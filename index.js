@@ -27,8 +27,8 @@ const main = async () => {
       `[INFO] Split data: \n${trainData.length} training examples \n${testData.length} test examples`
     );
 
-    writeFileSync(join(__dirname, 'train-data.json'), JSON.stringify(trainData));
-    writeFileSync(join(__dirname, 'test-data.json'), JSON.stringify(testData));
+    writeFileSync(join(__dirname, '/src/data/train-data.json'), JSON.stringify(trainData));
+    writeFileSync(join(__dirname, '/src/data/test-data.json'), JSON.stringify(testData));
 
     console.log('[INFO] Data written to file');
 
